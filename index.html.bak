@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Haruki - My Portfolio</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <!-- Bootstrap Icons-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans:400,700" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic" rel="stylesheet" type="text/css" />
+        <!-- SimpleLightbox plugin CSS-->
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/SimpleLightbox/2.1.0/simpleLightbox.min.css" rel="stylesheet" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+    </head>
+    <body id="page-top">
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3" id="mainNav">
+            <div class="container px-4 px-lg-5">
+                <a class="navbar-brand" href="#page-top">Yagezawa Haruki</a>
+                <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ms-auto my-2 my-lg-0">
+                        <li class="nav-item"><a class="nav-link" href="#PROFILE">PROFILE</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#SKILL">SKILL</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#WORKS">WORKS</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#CONTACT">CONTACT</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- PROFILE-->
+        <section class="page-section bg-primary" id="PROFILE">
+            <div class="container px-4 px-lg-5">
+                <div class="row gx-4 gx-lg-5 justify-content-center">
+                    <div class="col-lg-8 text-center">
+                        <h2 class="text-white mt-0">
+                            <svg width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M11.6258 20.1104L13.6679 22.1525L14.0215 22.5061L18.9705 27.4551L18.9735 27.4521L22.1293 30.6079L28.8166 28.816L30.6084 22.1287L27.4527 18.973L27.4558 18.9698L22.5067 14.0208L22.1532 13.6672L20.1114 11.6254C20.7243 11.3734 21.3572 11.1588 22.0073 10.9846C27.3868 9.54322 33.1266 11.0812 37.0646 15.0192C41.0027 18.9573 42.5406 24.6971 41.0992 30.0765C40.9042 30.8043 40.6587 31.5106 40.3665 32.1914L64.0703 55.8952C66.4134 58.2383 66.4134 62.0373 64.0703 64.3804C61.7271 66.7236 57.9281 66.7236 55.585 64.3804L39.1279 47.9233C39.4825 45.7724 38.8304 43.4878 37.1713 41.8288C34.5316 39.189 30.308 39.0983 27.5594 41.5567C22.9625 42.0067 18.3474 40.3928 15.0192 37.0646C11.0812 33.1266 9.54322 27.3868 10.9846 22.0073C11.1589 21.3569 11.3736 20.7236 11.6258 20.1104Z" fill="#828282"></path>
+                            <path d="M37.1714 41.8284L48.4851 30.5146" stroke="#E0E0E0" stroke-width="4" stroke-linecap="square" stroke-linejoin="round"></path>
+                            <path d="M62.6271 10.716L68.284 16.3728L57.1547 30.3305L48.485 30.515L48.6694 21.8452L62.6271 10.716Z" fill="#E0E0E0"></path>
+                            <path d="M27.2719 41.8287C30.0056 39.095 34.4378 39.095 37.1714 41.8287C39.9051 44.5623 39.9051 48.9945 37.1714 51.7282L20.908 67.9916C20.1269 68.7727 18.8606 68.7727 18.0795 67.9916L11.0085 60.9205C10.2274 60.1395 10.2274 58.8732 11.0085 58.0921L27.2719 41.8287Z" fill="#F2C94C"></path>
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M11.6257 20.1098L13.6679 22.152L14.0214 22.5055L18.9705 27.4546L18.9735 27.4516L22.1292 30.6073L28.8165 28.8155L30.6084 22.1282L27.4526 18.9724L27.4557 18.9693L22.5067 14.0202L22.1531 13.6667L20.1113 11.6249C20.7242 11.3728 21.3572 11.1583 22.0073 10.9841C27.3867 9.54267 33.1265 11.0807 37.0646 15.0187C41.0026 18.9567 42.5406 24.6965 41.0992 30.076C39.6578 35.4554 35.4559 39.6573 30.0765 41.0987C24.697 42.5401 18.9572 41.0021 15.0192 37.0641C11.0811 33.1261 9.54317 27.3863 10.9846 22.0068C11.1589 21.3563 11.3735 20.7231 11.6257 20.1098Z" fill="#EB5757"></path>
+                            </svg>
+                            " テスト１"
+                        </h2>
+                        <hr class="divider divider-light" />
+                        <p class="text-white-75 mb-4">Start Bootstrap has everything you need to get your new website up and running in no time! Choose one of our open source, free to download, and easy to use themes! No strings attached!</p>
+                        <a class="btn btn-light btn-xl" href="#services">Get Started!</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- SKILL-->
+        <section class="page-section" id="SKILL">
+            <div class="container px-4 px-lg-5">
+                <h2 class="text-center mt-0">At Your Service</h2>
+                <hr class="divider" />
+                <div class="row gx-4 gx-lg-5">
+                    <div class="col-lg-3 col-md-6 text-center">
+                        <div class="mt-5">
+                            <div class="mb-2"><i class="bi-gem fs-1 text-primary"></i></div>
+                            <h3 class="h4 mb-2">Sturdy Themes</h3>
+                            <p class="text-muted mb-0">Our themes are updated regularly to keep them bug free!</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 text-center">
+                        <div class="mt-5">
+                            <div class="mb-2"><i class="bi-laptop fs-1 text-primary"></i></div>
+                            <h3 class="h4 mb-2">Up to Date</h3>
+                            <p class="text-muted mb-0">All dependencies are kept current to keep things fresh.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 text-center">
+                        <div class="mt-5">
+                            <div class="mb-2"><i class="bi-globe fs-1 text-primary"></i></div>
+                            <h3 class="h4 mb-2">Ready to Publish</h3>
+                            <p class="text-muted mb-0">You can use this design as is, or you can make changes!</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 text-center">
+                        <div class="mt-5">
+                            <div class="mb-2"><i class="bi-heart fs-1 text-primary"></i></div>
+                            <h3 class="h4 mb-2">Made with Love</h3>
+                            <p class="text-muted mb-0">Is it really open source if it's not made with love?</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- WORKS-->
+        <div id="WORKS">
+            <div class="container-fluid p-0">
+                <div class="row g-0">
+                    <div class="col-lg-4 col-sm-6">
+                        <a class="portfolio-box" href="assets/img/portfolio/fullsize/1.jpg" title="Project Name">
+                            <img class="img-fluid" src="assets/img/portfolio/thumbnails/1.jpg" alt="..." />
+                            <div class="portfolio-box-caption">
+                                <div class="project-category text-white-50">Category</div>
+                                <div class="project-name">Project Name</div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-sm-6">
+                        <a class="portfolio-box" href="assets/img/portfolio/fullsize/2.jpg" title="Project Name">
+                            <img class="img-fluid" src="assets/img/portfolio/thumbnails/2.jpg" alt="..." />
+                            <div class="portfolio-box-caption">
+                                <div class="project-category text-white-50">Category</div>
+                                <div class="project-name">Project Name</div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-sm-6">
+                        <a class="portfolio-box" href="assets/img/portfolio/fullsize/3.jpg" title="Project Name">
+                            <img class="img-fluid" src="assets/img/portfolio/thumbnails/3.jpg" alt="..." />
+                            <div class="portfolio-box-caption">
+                                <div class="project-category text-white-50">Category</div>
+                                <div class="project-name">Project Name</div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-sm-6">
+                        <a class="portfolio-box" href="assets/img/portfolio/fullsize/4.jpg" title="Project Name">
+                            <img class="img-fluid" src="assets/img/portfolio/thumbnails/4.jpg" alt="..." />
+                            <div class="portfolio-box-caption">
+                                <div class="project-category text-white-50">Category</div>
+                                <div class="project-name">Project Name</div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-sm-6">
+                        <a class="portfolio-box" href="assets/img/portfolio/fullsize/5.jpg" title="Project Name">
+                            <img class="img-fluid" src="assets/img/portfolio/thumbnails/5.jpg" alt="..." />
+                            <div class="portfolio-box-caption">
+                                <div class="project-category text-white-50">Category</div>
+                                <div class="project-name">Project Name</div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-sm-6">
+                        <a class="portfolio-box" href="assets/img/portfolio/fullsize/6.jpg" title="Project Name">
+                            <img class="img-fluid" src="assets/img/portfolio/thumbnails/6.jpg" alt="..." />
+                            <div class="portfolio-box-caption p-3">
+                                <div class="project-category text-white-50">Category</div>
+                                <div class="project-name">Project Name</div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Call to action-->
+        <section class="page-section bg-dark text-white">
+            <div class="container px-4 px-lg-5 text-center">
+                <h2 class="mb-4">Free Download at Start Bootstrap!</h2>
+                <a class="btn btn-light btn-xl" href="https://startbootstrap.com/theme/creative/">Download Now!</a>
+            </div>
+        </section>
+        <!-- CONTACT-->
+        <section class="page-section" id="CONTACT">
+            <div class="container px-4 px-lg-5">
+                <div class="row gx-4 gx-lg-5 justify-content-center">
+                    <div class="col-lg-8 col-xl-6 text-center">
+                        <h2 class="mt-0">Let's Get In Touch!</h2>
+                        <hr class="divider" />
+                        <p class="text-muted mb-5">Ready to start your next project with us? Send us a messages and we will get back to you as soon as possible!</p>
+                    </div>
+                </div>
+                <div class="row gx-4 gx-lg-5 justify-content-center mb-5">
+                    <div class="col-lg-6">
+                        <!-- * * * * * * * * * * * * * * *-->
+                        <!-- * * SB Forms Contact Form * *-->
+                        <!-- * * * * * * * * * * * * * * *-->
+                        <!-- This form is pre-integrated with SB Forms.-->
+                        <!-- To make this form functional, sign up at-->
+                        <!-- https://startbootstrap.com/solution/contact-forms-->
+                        <!-- to get an API token!-->
+                        <form id="contactForm" data-sb-form-api-token="API_TOKEN">
+                            <!-- Name input-->
+                            <div class="form-floating mb-3">
+                                <input class="form-control" id="name" type="text" placeholder="Enter your name..." data-sb-validations="required" />
+                                <label for="name">Full name</label>
+                                <div class="invalid-feedback" data-sb-feedback="name:required">A name is required.</div>
+                            </div>
+                            <!-- Email address input-->
+                            <div class="form-floating mb-3">
+                                <input class="form-control" id="email" type="email" placeholder="name@example.com" data-sb-validations="required,email" />
+                                <label for="email">Email address</label>
+                                <div class="invalid-feedback" data-sb-feedback="email:required">An email is required.</div>
+                                <div class="invalid-feedback" data-sb-feedback="email:email">Email is not valid.</div>
+                            </div>
+                            <!-- Phone number input-->
+                            <div class="form-floating mb-3">
+                                <input class="form-control" id="phone" type="tel" placeholder="(123) 456-7890" data-sb-validations="required" />
+                                <label for="phone">Phone number</label>
+                                <div class="invalid-feedback" data-sb-feedback="phone:required">A phone number is required.</div>
+                            </div>
+                            <!-- Message input-->
+                            <div class="form-floating mb-3">
+                                <textarea class="form-control" id="message" type="text" placeholder="Enter your message here..." style="height: 10rem" data-sb-validations="required"></textarea>
+                                <label for="message">Message</label>
+                                <div class="invalid-feedback" data-sb-feedback="message:required">A message is required.</div>
+                            </div>
+                            <!-- Submit success message-->
+                            <!---->
+                            <!-- This is what your users will see when the form-->
+                            <!-- has successfully submitted-->
+                            <div class="d-none" id="submitSuccessMessage">
+                                <div class="text-center mb-3">
+                                    <div class="fw-bolder">Form submission successful!</div>
+                                    To activate this form, sign up at
+                                    <br />
+                                    <a href="https://startbootstrap.com/solution/contact-forms">https://startbootstrap.com/solution/contact-forms</a>
+                                </div>
+                            </div>
+                            <!-- Submit error message-->
+                            <!---->
+                            <!-- This is what your users will see when there is-->
+                            <!-- an error submitting the form-->
+                            <div class="d-none" id="submitErrorMessage"><div class="text-center text-danger mb-3">Error sending message!</div></div>
+                            <!-- Submit Button-->
+                            <div class="d-grid"><button class="btn btn-primary btn-xl disabled" id="submitButton" type="submit">Submit</button></div>
+                        </form>
+                    </div>
+                </div>
+                <div class="row gx-4 gx-lg-5 justify-content-center">
+                    <div class="col-lg-4 text-center mb-5 mb-lg-0">
+                        <i class="bi-phone fs-2 mb-3 text-muted"></i>
+                        <div>+1 (555) 123-4567</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Footer-->
+        <footer class="bg-light py-5">
+            <div class="container px-4 px-lg-5"><div class="small text-center text-muted">Copyright &copy; 2023 - Company Name</div></div>
+        </footer>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- SimpleLightbox plugin JS-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/SimpleLightbox/2.1.0/simpleLightbox.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+        <!-- * *                               SB Forms JS                               * *-->
+        <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
+        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+        <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+    </body>
+</html>
