@@ -10997,3 +10997,68 @@ header.masthead h1, header.masthead .h1 {
 #portfolio .container-fluid .portfolio-box:hover .portfolio-box-caption, #portfolio .container-sm .portfolio-box:hover .portfolio-box-caption, #portfolio .container-md .portfolio-box:hover .portfolio-box-caption, #portfolio .container-lg .portfolio-box:hover .portfolio-box-caption, #portfolio .container-xl .portfolio-box:hover .portfolio-box-caption, #portfolio .container-xxl .portfolio-box:hover .portfolio-box-caption {
   opacity: 1;
 }
+
+
+
+/* 作品カード全体の外枠 */
+.work-card {
+  display: flex; /* 横並びにする設定 */
+  gap: 20px; /* 画像とテキストの間隔 */
+  border: 1px solid #444; /* 枠線 */
+  border-radius: 8px; /* 角を少し丸くする */
+  padding: 15px;
+  margin-bottom: 25px; /* 作品同士の上下の間隔 */
+  background-color: #222; /* 背景色（ダークモード風） */
+  color: #fff;
+}
+
+/* 画像・GIF部分のサイズ調整 */
+.work-media {
+  flex-shrink: 0; /* 画像の枠が潰れないように設定 */
+  width: 280px;   /* 画像を表示する幅 */
+}
+
+/* 画像・GIF自体を枠いっぱいに綺麗に収める */
+.work-media img {
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+  object-fit: cover;
+}
+
+/* テキスト部分の調整 */
+.work-info {
+  flex-grow: 1; /* 残りの幅をすべてテキストに使う */
+}
+
+.work-title {
+  margin-top: 0;
+  margin-bottom: 5px;
+  font-size: 1.4rem;
+  color: #4da6ff;
+}
+
+.work-badge {
+  display: inline-block;
+  background-color: #dc3545; /* 赤色のバッジ */
+  color: white;
+  padding: 2px 8px;
+  font-size: 0.8rem;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+.work-description {
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
+/* 【スマホ対応】画面が狭いときは縦並びにする設定 */
+@media (max-width: 600px) {
+  .work-card {
+    flex-direction: column; /* 縦並びに切り替え */
+  }
+  .work-media {
+    width: 100%;
+  }
+}
