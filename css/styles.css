@@ -11038,9 +11038,16 @@ header.masthead h1, header.masthead .h1 {
   color: #4da6ff;
 }
 
+
+.badge-container {
+  margin-bottom: 12px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
 .work-badge-award {
   display: inline-block;
-  background-color: #dc3545; /* 赤色のバッジ */
+  background-color: #dc3545;
   color: white;
   padding: 2px 8px;
   font-size: 0.8rem;
@@ -11049,7 +11056,7 @@ header.masthead h1, header.masthead .h1 {
 }
 .work-badge-exhibit {
   display: inline-block;
-  background-color: #1f9de0; /* 青色のバッジ */
+  background-color: #1f9de0;
   color: white;
   padding: 2px 8px;
   font-size: 0.8rem;
