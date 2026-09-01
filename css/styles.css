@@ -643,7 +643,7 @@ progress {
   padding-left: calc(var(--bs-gutter-x) * 0.5);
   margin-right: auto;
   margin-left: auto;
-  background-color: var(--bs-white);
+  background-color: #fff;
 }
 
 @media (min-width: 576px) {
