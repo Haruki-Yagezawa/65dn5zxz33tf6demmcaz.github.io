@@ -10933,6 +10933,17 @@ hr.divider-light {
     color: #f4623a;
   }
 }
+#mainNav .navbar-brand,
+#mainNav .navbar-nav .nav-item .nav-link {
+    color: #ffffff !important;
+}
+#mainNav .navbar-brand:hover,
+#mainNav .navbar-nav .nav-item .nav-link:hover {
+    color: #f4623a !important;
+}
+#mainNav .navbar-nav .nav-item .nav-link.active {
+    color: #f4623a !important;
+}
 
 header.masthead {
   padding-top: 10rem;
@@ -11081,17 +11092,4 @@ header.masthead h1, header.masthead .h1 {
   .work-media {
     width: 100%;
   }
-}
-
-
-#mainNav .navbar-brand,
-#mainNav .navbar-nav .nav-item .nav-link {
-    color: #ffffff !important;
-}
-#mainNav .navbar-brand:hover,
-#mainNav .navbar-nav .nav-item .nav-link:hover {
-    color: #f4623a !important;
-}
-#mainNav .navbar-nav .nav-item .nav-link.active {
-    color: #f4623a !important;
 }
