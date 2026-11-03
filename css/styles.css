@@ -11015,8 +11015,8 @@ header.masthead h1, header.masthead .h1 {
 
 
 
-/* 作品カード全体の外枠 */
-.work-card {
+/* 作品カード全体の外枠（主要なカード） */
+.work-card-main {
   display: flex; /* 横並びにする設定 */
   gap: 20px; /* 画像とテキストの間隔 */
   border: 1px solid #444; /* 枠線 */
@@ -11024,6 +11024,18 @@ header.masthead h1, header.masthead .h1 {
   padding: 15px;
   margin-bottom: 25px; /* 作品同士の上下の間隔 */
   background-color: #222; /* 背景色（ダークモード風） */
+  color: #fff;
+}
+
+/* 作品カード全体の外枠（主要ではなく、見せなくても良いカード） */
+.work-card-sub {
+  display: flex; /* 横並びにする設定 */
+  gap: 20px; /* 画像とテキストの間隔 */
+  border: 1px solid #444; /* 枠線 */
+  border-radius: 8px; /* 角を少し丸くする */
+  padding: 15px;
+  margin-bottom: 25px; /* 作品同士の上下の間隔 */
+  background-color: #444; /* 背景色 */
   color: #fff;
 }
 
