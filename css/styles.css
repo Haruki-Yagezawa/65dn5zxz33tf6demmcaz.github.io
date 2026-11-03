@@ -11051,7 +11051,9 @@ header.masthead h1, header.masthead .h1 {
   height: auto;
   border-radius: 4px;
   object-fit: cover;
-
+}
+.work-media img.second-img {
+  margin-top: 10px;
 }
 
 /* テキスト部分の調整 */
