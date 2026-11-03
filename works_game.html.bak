@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Haruki - HarukiのPortfolio</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <!-- Bootstrap Icons-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans:400,700" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic" rel="stylesheet" type="text/css" />
+        <!-- SimpleLightbox plugin CSS-->
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/SimpleLightbox/2.1.0/simpleLightbox.min.css" rel="stylesheet" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+    </head>
+    <body id="page-top">
+
+        <!-- WORK GAME -->
+        <section id="WORK GAME">
+            <div class="container px-4 px-lg-5 py-5">
+                <h2 class="text-center mt-0">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 36 36" fill="none">
+                    	<path fill="#31373d" d="m2.13 14.856l-.004-.002S.075 27.271.075 29.061c0 1.824 1.343 3.302 3 3.302c.68 0 1.3-.258 1.803-.678l10.166-8.938zm31.69 0l.004-.002s2.051 12.417 2.051 14.207c0 1.824-1.343 3.302-3 3.302c-.68 0-1.3-.258-1.803-.678l-10.166-8.938z" />
+                    	<g fill="#14171a">
+                    		<circle cx="25.975" cy="15.551" r="8.5" />
+                    		<circle cx="9.975" cy="15.551" r="8.5" />
+                    		<path d="M9.975 7.051h16v16.87h-16z" />
+                    	</g>
+                    	<circle cx="13.075" cy="23.301" r="5" fill="#14171a" />
+                    	<circle cx="22.875" cy="23.301" r="5" fill="#14171a" />
+                    	<circle cx="22.875" cy="23.301" r="3" fill="#67757f" />
+                    	<circle cx="13.075" cy="23.301" r="3" fill="#67757f" />
+                    	<circle cx="25.735" cy="11.133" r="1.603" fill="#ffcc4d" />
+                    	<circle cx="25.735" cy="17.607" r="1.603" fill="#77b255" />
+                    	<circle cx="22.498" cy="14.37" r="1.603" fill="#50a5e6" />
+                    	<circle cx="28.972" cy="14.37" r="1.603" fill="#dd2e44" />
+                    	<path fill="#8899a6" d="M11.148 12.514v-2.168a.505.505 0 0 0-.505-.505H9.085a.505.505 0 0 0-.505.505v2.168l1.284 1.285zm-2.569 3.63v2.168c0 .279.226.505.505.505h1.558a.505.505 0 0 0 .505-.505v-2.168l-1.284-1.285zm5.269-3.1H11.68l-1.285 1.285l1.285 1.285h2.168a.506.506 0 0 0 .505-.505V13.55a.506.506 0 0 0-.505-.506m-5.799 0H5.88a.506.506 0 0 0-.505.505v1.558c0 .279.226.505.505.505h2.168l1.285-1.285z" />
+                    </svg>
+
+                    　WORK GAME
+                </h2>
+                <p class="work-description text-center">
+                  制作手法を学んでいた専門学校での4年間と、卒業後の1年半の中で制作した作品の一覧です。<br>
+                  授業内の課題作品（全員で一律に制作したもの）は除外し、自発的な挑戦や意欲を込めて制作した作品を中心に、13+1作品を掲載しています。<br>
+                  細かな技術仕様については別添資料をご確認いただき、まずはこのページを通じてゲーム制作に対する姿勢や意欲を感じていただければ幸いです。
+                </p>
+                
+                <hr class="divider" />
+                
+                <!------------------------------------------------------------------------------------------------>
+                <h3 class="mt-7 border-bottom pb-2">2026年</h3>
+
+                <!--　★◯✕ゲーム-OVERRIDE -->
+                <div class="work-card-main" id="TicTacToe-OVERRIDE">
+                    <div class="work-media">
+                      <img src="assets\gif\play_◯✕ゲーム-OVERRIDE.png" alt="◯✕ゲーム-OVERRIDEのプレイ画面">
+                      <div class="col mt-4">
+                          <div class="card h-100">
+                              <div class="card-body">
+                                  <img src="assets\img\UnityRoom_◯✕ゲーム.png" class="card-img-top" alt="unityroom画像">
+                                  <h4 class="card-title" style="color: black;">unityroomで公開中</h4>
+                                  <a href="https://unityroom.com/games/tic-tac-toe-override#google_vignette" class="btn btn-primary">unityroom</a>
+                              </div>
+                          </div>
+                      </div>
+                    </div>
+                  
+                    <div class="work-info">
+                      <h3 class="work-title">◯✕ゲーム-OVERRIDE</h3>
+                      <p class="work-description">
+                        【概要】勝敗が決まりにくいマルバツゲームに新要素を追加した卓上対戦ゲーム。<br>
+                        【制作人数・期間】個人・１週間（約６０時間）<br>
+                        【開発経緯】１０／２０～１０／２７で制作した作品。就活をするにあたり今まで制作してきたゲームの中で非リアルタイムゲームが１つもなかったため、簡単なものを本腰を入れて制作。<br>
+                        【こだわった点】<br>
+                        　簡単なゲームで良かったので、◯✕ゲームを題材に設定した。ただ既存の◯✕ゲームをそのまま再現するだけではなく、独自のゲーム性を持たせるため新しいルールを追加した。<br>
+                        　そして、新しいルールを追加したことで、ルールが伝わりづらくなってしまうと思い、２つの要素を追加した。<br>
+                        　１.世界観　　　：「◯✕と盤面」という抽象的なものを「電池とソケット」という現実として理解できるものに変更した。そうすることで、「なぜそうしなければいけないのか」の理由がスッと頭に入ってくる説明ができるようになっていると思う。<br>
+                        　２.リアクション：「ランク不足」「リソース枯渇」「重複配置」など、盤面に置けない理由がいくつかあり、それをわかりやすくする必要があると判断した。<b>ただ配置を突っぱねるのではなく、できない理由に合わせて演出を分けて実装することで、プレイヤーにわかりやすくなった</b>と思う。<br>
+                        　内部処理と演出処理を明確に分けてキレイなコードを目指した。<b>内部処理から演出処理を直接書くのではなく、内部処理でイベントを実装し、それをManagerクラスが拾って演出処理と繋げるような実装を徹底した。</b><br>
+                        【反省点】関数名は「On~」、イベント名は「On~Event」と付けるように意識した。しかし、関数名については、「呼ばれる要因」と「処理内部の説明」の２つの付け方が混在してしまった。その部分は可読性や一貫性として反省点だったと感じている。<br>
+                      </p>
+                    </div>
+                </div>
+
+                <!------------------------------------------------------------------------------------------------>
+                <h3 class="mt-7 border-bottom pb-2">2024年</h3>
+
+                <!--　★Wave Escape -->
+                <div class="work-card-main" id="WaveEscape">
+                    <div class="work-media">
+                      <img src="assets\gif\play_WaveEscape.gif" alt="Wave Escapeのプレイ画面">
+                    </div>
+                  
+                    <div class="work-info">
+                      <h3 class="work-title">Wave Escape</h3>
+                      <div class="badge-container">
+                        <span class="work-badge-exhibit">第5回ゲームパビリオンjp 展示</span>
+                        <span class="work-badge-exhibit">東京ゲームダンジョン12 展示</span>
+                        <span class="work-badge-award">サイゲームスクリエイティブコンテスト2024 ゲームコンテンツ部門 最終審査ノミネート</span>
+                      </div>
+                      <p class="work-description">
+                        【概要】障害物や壁を避けて、追ってくる波動から逃げるハイスピード3Dランゲーム。<br>
+                        【制作人数・期間】個人・２年（約１０００時間）<br>
+                        【開発経緯】専門学校四年後期あたり～現在まで作成している作品。ゲーム業界の方や先輩から「物語の追加」「スマホへの対応」の2つのアドバイスを頂いた。このアドバイスを実現させるため、制作を実施。<br>
+                        【こだわった点】展示会や業界関係者から「物語が欲しい」というフィードバックを受けたため、世界観設定を考えた。その結果、ボス戦やストーリーなどの追加要素の方向性が明確になった。<br>
+                        　会話演出にはSinarioFrow（アセット）を使用し、会話中のイベントも拡張性や依存性に気をつけながら作成している。<br>
+                        　ステージの生成にはオブジェクトプールを使用し、マテリアルはできる限りの低画像を使用することで、処理の軽減を計っている。<br>
+                        　グラフシェーダーで、RendererFeatureのエフェクトを作成した。特に、高速走行時の爽快感を強調するため、カーブを綺麗に抜けた際に専用エフェクトが発生する演出を実装した。速度によって演出の強さを変化させることで、ゲームの盛り上がりを演出することを目指した。<br>
+                        　前作の展示会では、ランキングを確認するために繰り返し訪問する来場者も見られた。プレイヤー同士の競争心を刺激する仕組みとして有効だったため、今作にもランキングを導入した。<br>
+                        【反省点】開発が長期に渡っているため、仕様変更対応をする場面が多くなっているが、その度影響度を確認するのに時間がかかっている。プログラムの処理手順を書いた仕様書（処理仕様書）の必要性を学んだ。<br>
+                      </p>
+                    </div>
+                </div>
+
+                <!--　★SHI KA KU -->
+                <div class="work-card-main" id="ShiKaKu">
+                    <div class="work-media">
+                      <img src="assets\gif\play_SHI KA KU.gif" alt="SHI KA KUのプレイ画面">
+                    </div>
+                  
+                    <div class="work-info">
+                      <h3 class="work-title">SHI KA KU</h3>
+                      <div class="badge-container">
+                        <span class="work-badge-award">サイゲームスクリエイティブコンテスト2024 ゲームコンテンツ部門 最終審査ノミネート</span>
+                      </div>
+                      <p class="work-description">
+                        【概要】動物で目線を逸らさせ、背後を奇襲するデコイアクションゲーム。<br>
+                        【制作人数・期間】２人・３ヶ月（約３５０時間）<br>
+                        【担当箇所】敵の視線範囲機能、プレイヤーの操作、動物の移動、インゲーム中のUI、ステージの生成機能<br>
+                        【開発経緯】専門学校四年前期で制作した作品。視線誘導などをして敵を死角から倒すというコンセプトで制作。<br>
+                        【こだわった点】<b>ステージ情報をスクリプタブルオブジェクトで保持し、それを元に動的にステージを配置するシステムを作成した。</b>これにより、シーンに直接配置する方式と比較して、管理するデータ量を削減できる設計になっている。また、地面のメッシュコライダーも、ドロネー三角形分割で動的に生成している。当たり判定のつなぎ目でつまずくことがないようにしている。<br>
+                        　<b>ステージを制作するツールをUnityEditorで作成した。</b>これにより、複雑なステージでも簡単に調整ができる。<br>
+                        【反省点】ステージを作成するツールのロードが長い。ボタンではなくて画像で表示し、画面のどの座標を押されたかで配置するような感じで実装すべきだった。<br>
+                      </p>
+                    </div>
+                </div>
+
+                <!------------------------------------------------------------------------------------------------>
+                <h3 class="mt-7 border-bottom pb-2">2023年</h3>
+
+                <!--　★WarlockHero -->
+                <div class="work-card-main" id="WarlockHero">
+                    <div class="work-media">
+                      <img src="assets\gif\play_WarlockHero.gif" alt="WarlockHeroのプレイ画面">
+                    </div>
+                  
+                    <div class="work-info">
+                      <h3 class="work-title">WarlockHero</h3>
+                      <div class="badge-container">
+                        <span class="work-badge-exhibit">2023年 第6回全国エンタメまつり 学校枠展示</span>
+                      </div>
+                      <p class="work-description">
+                        【概要】入る度に変わるダンジョンを進み、奥にいるボスを倒すローグライクシューティング。<br>
+                        【制作人数・期間】５人・６ヶ月<br>
+                        【担当箇所】ダンジョンの自動生成、部屋の開閉機能、承認の売買機能、クリア判定制御、シーン遷移機能<br>
+                        【開発経緯】専門学校三年前期自由制作～三年後期で制作した作品。当時、「HADES」や「ヴァンパイアサバイバー」などのローグライクが流行っていたため、ローグライクのゲームを制作。<br>
+                        【こだわった点】ステージはランダムで変わるダンジョンにするという方針だった。それに対して、手続き型ダンジョン生成アルゴリズムを使用して作成した。<br>
+                        　キャラクターのセリフ作成にAIを活用した。リソースが限られる中では、アイデア出しや資料作成の補助として有効であることを学んだ。<br>
+                        　前回の開発からプログラムの本を読み、関数分けや名前空間をしっかり分けるというところをできた。これにより、汎用性があるコードを作成できるようになった。<br>
+                        【反省点】クオリティが高いゲームになったが、ゲーム内容としてはただ足し算をしているだけなので、新規性を感じられないゲームになってしまった。<br>
+                      </p>
+                    </div>
+                </div>
+
+                <!--　DRPGホラー -->
+                <div class="work-card-sub">
+                    <div class="work-media">
+                      <img src="assets\gif\play_horror1.gif" alt="DRPGホラーのプレイ画面">
+                    </div>
+                  
+                    <div class="work-info">
+                      <h3 class="work-title">DRPGホラー（名前なし）</h3>
+                      <p class="work-description">
+                        【概要】捕まらないようにしながら、迷路の出口を目指すDRPGホラー。<br>
+                        【制作人数・期間】個人・１週間<br>
+                        【開発経緯】専門学校三年前期で制作した作品。一週間で一本作るという授業で作成。Itch.ioで公開されている「HEDGEROW」を元に制作。<br>
+                        【こだわった点】時間が一週間とまったくないため、素材はいらすとやから拝借した。画面の縁や画像素材の縁をくすませることで、怖い雰囲気を演出できたと思う。<br>
+                      </p>
+                    </div>
+                </div>
+
+                <!--　★TANK FRONT LINE 3 -->
+                <div class="work-card-main" id="TankFrontLine3">
+                    <div class="work-media">
+                      <img src="assets\gif\play_TANK FRONT LINE.gif" alt="TANK FRONT LINE 3のプレイ画面">
+                    </div>
+                  
+                    <div class="work-info">
+                      <h3 class="work-title">TANK FRONT LINE 3</h3>
+                      <div class="badge-container">
+                        <span class="work-badge-award">ゲームクリエイター甲子園2023 アプシィ賞 受賞</span>
+                        <span class="work-badge-award">ゲームクリエイター甲子園2023 月間賞 8月 受賞</span>
+                        <span class="work-badge-exhibit">2023年 第6回全国エンタメまつり 学校枠展示</span>
+                        <span class="work-badge-exhibit">東京ゲームショウ2023 学校枠展示</span>
+                        <span class="work-badge-award">日本ゲーム大賞2023 アマチュア部門最終選考ノミネート</span>
+                      </div>
+                      <p class="work-description">
+                        【概要】左右独立したスティック移動で操作し、敵を殲滅する戦車3Dアクション。<br>
+                        【制作人数・期間】３人・６ヶ月<br>
+                        【担当箇所】ステージ作成ツール、チュートリアル機能、一部の敵AI、プレイヤーの自動ロックオン機能<br>
+                        【開発経緯】専門学校二年後期自由制作～三年前期で制作した作品。日本ゲーム大賞アマチュア部門に向けて作成し、テーマが「こだわり」だったため、ツインスティック操作（塊魂やバーチャロン？などの操作）にこだわり作成。<br>
+                        【こだわった点】制作人数が3人しかおらず、しかし受賞が目標であった。そのため、ステージ作成ツールを作成した。ドット絵でステージを作成し、色情報を配列にした後、Unityのエディタ上で配列通りにものを配置するツールでステージを作成する方式を取った。<br>
+                        　マテリアルの画像を低解像度にしたり、影を荒くしたり、URPを使用する、また、オクルージョンカリングを使用することで、描画での処理を軽くすることに成功した。<br>
+                        【反省点】１つのクラスファイルに複数の責務を持たせてしまい、拡張性や保守性が低いコードになってしまった。<br>
+                      </p>
+                    </div>
+                </div>
+
+                <!------------------------------------------------------------------------------------------------>
+                <h3 class="mt-7 border-bottom pb-2">2022年</h3>
+
+                <!--　★ウェーブエスケープ -->
+                <div class="work-card-sub">
+                    <div class="work-media">
+                      <img src="assets\gif\play_ウェーブエスケープ.gif" alt="ウェーブエスケープのプレイ画面">
+                    </div>
+                  
+                    <div class="work-info">
+                      <h3 class="work-title">ウェーブエスケープ</h3>
+                      <div class="badge-container">
+                        <span class="work-badge-award">ゲームクリエイター甲子園2023 月間賞 8月 受賞</span>
+                        <span class="work-badge-exhibit">東京ゲームショウ2023 学校枠展示</span>
+                        <span class="work-badge-award">第11回ゲームコンペティション プレイアブル部門 テクニカル賞 受賞</span>
+                      </div>
+                      <p class="work-description">
+                        【概要】障害物や壁を避けて、追ってくる波動から逃げる3Dランゲーム。<br>
+                        【制作人数・期間】個人・６ヶ月<br>
+                        【開発経緯】専門学校二年の前期自由制作～二年後期で制作した作品。自分が好きなゲームを制作するというコンセプトで制作し、レースゲームでカーブギリギリを走る面白さを表現するところをコンセプトに作成。<br>
+                        【こだわった点】カーブを走る処理では、当時3DSplitを知らなかったため、三角関数を使用して処理を作成した。そのため、三角関数を深く理解することができた。<br>
+                        【反省点】プログラムのコードについて、１つのクラスに分けられそうな実装が複数ある。また、スコープを使っていないので、どこから参照されているかが分かりにくい作りになっている。クラス分けの仕様書（基本設計書）の必要性を学んだ。<br>
+                        　モデルが動的に生成と削除が繰り返され、URPも使用していなかったため、処理が無駄に重い。<br>
+                      </p>
+                    </div>
+                </div>
+
+                <!-- Stick Online -->
+                <div class="work-card-sub">
+                    <div class="work-media">
+                      <img src="assets\gif\StickOnline.png" alt="Stick Onlineのプレイ画面">
+                    </div>
+                  
+                    <div class="work-info">
+                      <h3 class="work-title">Stick Online</h3>
+                      <p class="work-description">
+                        【概要】棒人間を操り、落ちてくる銃で対戦相手を倒すゲーム。<br>
+                        【制作人数・期間】４人・２ヶ月<br>
+                        【担当箇所】ステージ作成、ステージ遷移機能、リザルトUI<br>
+                        【開発経緯】専門学校二年の後期に、ネットワークの授業で制作した作品。PUN2を使用し、クライアント・サーバー方式で対戦ゲームを制作する課題。PCゲーム「Stick Fight」を元に制作。<br>
+                        【こだわった点】ステージが入れ替わるとき、原作再現として、ステージやキャラをヌルっと移動させるという処理を作成した。その際、移動タイミングのみ通信でやり取りし、移動処理はそれぞれの画面で処理させるという方向で制作した。<br>
+                      </p>
+                    </div>
+                </div>
+                
+                <!-- KnockOut -->
+                <div class="work-card-sub">
+                    <div class="work-media">
+                      <img src="assets\gif\play_KnockOut.gif" alt="KnockOutのプレイ画面">
+                    </div>
+                  
+                    <div class="work-info">
+                      <h3 class="work-title">KnockOut</h3>
+                      <p class="work-description">
+                        【概要】反重力ボールを攻撃し、勢いを付けたボールで敵を倒すゲーム。<br>
+                        【制作人数・期間】７人・３ヶ月<br>
+                        【担当箇所】タイトル画面、ステージ選択画面、クリア状況のセーブ機能、セーブデータ削除機能、リザルトUI<br>
+                        【開発経緯】専門学校一年の後期自由制作~二年前期で作成した作品。日本ゲーム大賞アマチュア部門に向けて作成し、テーマが「感覚」だったため、打つ感覚（ヒットストップやコントローラの物理的な振動）に焦点を当てて作成。<br>
+                        【こだわった点】ステージ選択画面では、ただ文字を並べるだけではなく、ステージの全体を確認したりして、ワクワクできるような見た目を目指した。<br>
+                        【反省点】初めてのチーム制作の中で、全体に関わるプログラム制作を担当したが、インゲーム側での操作実装と同じ手法が取られておらず、独りよがりな製造をしてしまった。<br>
+                      </p>
+                    </div>
+                </div>
+                
+                <!------------------------------------------------------------------------------------------------>
+                <h3 class="mt-7 border-bottom pb-2">2021年</h3>
+
+                <!-- CLASH HIT -->
+                <div class="work-card-sub">
+                    <div class="work-media">
+                      <img src="assets\gif\play_CLASH GATES.gif" alt="CLASH HITのプレイ画面">
+                    </div>
+                  
+                    <div class="work-info">
+                      <h3 class="work-title">CLASH HIT</h3>
+                      <p class="work-description">
+                        【概要】ガラスに当たらないように破壊しながら進む3Dレールシューティング。<br>
+                        【制作人数・期間】５人・２ヶ月<br>
+                        【担当箇所】ガラスの破壊プログラム、ガラスの破片モデル、ステージの外観デザイン<br>
+                        【開発経緯】専門学校一年の後期の授業で作成した作品。初めてのチーム制作作品。スマホゲーム「Smash Hit」を元に制作。<br>
+                        【こだわった点】ガラスのエフェクトについては、キレイに破片の機動が動くように、ガラスに当たる直前でバラバラになったモデルに差し替え、破片がボールにふっ飛ばされるように作成した。<br>
+                        【反省点】チームでしっかり報連相が取れておらず、やることがないと寝るメンバーがでてしまった。また、締め切り直前でステージができていないハプニングが起こり、誰も担当者がいなかったことが判明した。<br>
+                        　作業前にしっかり決めることや、タスク管理が必要であること、完璧に統率することの難しさとメンバーの協力も大切であることが理解できた。<br>
+                      </p>
+                    </div>
+                </div>
+
+                <!-- 射的場2Dアクション -->
+                <div class="work-card-sub">
+                    <div class="work-media">
+                      <img src="assets\gif\play_Shoting2.gif" alt="射的場2Dアクションのプレイ画面">
+                    </div>
+                  
+                    <div class="work-info">
+                      <h3 class="work-title">射的場2Dアクション（名前なし）※未完成</h3>
+                      <p class="work-description">
+                        【概要】タレットを活用し、クリスタルを守る、射的場2Dアクションタワーディフェンス。<br>
+                        【制作人数・期間】個人・１年<br>
+                        【開発経緯】学校の開発とは別に個人で制作しようとしていた作品。<br>
+                        【こだわった点】当時遊んでいたワイルドガンズやイージスディフェンダー（タワーディフェンス）など、自分が好きなゲームを好きなように取り入れ制作した。<br>
+                        【反省点】色んなゲームの要素から要素を持ってきたため、ゲームとしてまとまりがなく、ややこしいゲーム性になってしまった。制作途中ではあったが、これ以上作っても面白くならないと判断し制作を中断した。<br>
+                        　また、このゲームも絵を自前で書いていたため、1人ですべて作ることは大変であり、複数人で制作することの大切さを学んだ。<br>
+                      </p>
+                    </div>
+                </div>
+
+                <!-- FAST THROW -->
+                <div class="work-card-sub">
+                    <div class="work-media">
+                      <img src="assets\gif\play_FAST THROW.gif" alt="FAST THROWのプレイ画面">
+                    </div>
+                  
+                    <div class="work-info">
+                      <h3 class="work-title">FAST THROW</h3>
+                      <p class="work-description">
+                        【概要】色んなボールを相手に投げつける対戦ゲーム。<br>
+                        【制作人数・期間】個人・２ヶ月<br>
+                        【開発経緯】専門学校一年の前期自由制作で作成した作品。<br>
+                        【こだわった点】一ヶ月の制作期間の中、２週間気胸で入院したが、入院中も制作していた。時間が予定よりも少なくなってしまった中で、制作難易度を小さくするため、キャットエスケープで作成したプログラムを流用した。制作時間が大幅に減ったため、既存資産を流用することで完成を優先した。<br>
+                      </p>
+                    </div>
+                </div>
+
+                <!-- シューティング -->
+                <div class="work-card-sub">
+                    <div class="work-media">
+                      <img src="assets\gif\play_Shoting1.gif" alt="シューティング（名前なし）のプレイ画面">
+                    </div>
+                  
+                    <div class="work-info">
+                      <h3 class="work-title">シューティング（名前なし）※未完成</h3>
+                      <p class="work-description">
+                        【制作人数・期間】個人・２ヶ月<br>
+                        【開発経緯】専門学校一年の夏休みの間＋αで作ろうとしてた作品。<br>
+                        【こだわった点】ドット絵が全部自前。曲も自分でつくろうとしていた。<br>
+                        【反省点】夏休みのみでは期間が足りず、風呂敷を広げすぎたこともあり、ボス戦まで完成しなかった。<br>
+                      </p>
+                    </div>
+                </div>
+
+                <!-- キャットエスケープ -->
+                <div class="work-card-sub">
+                    <div class="work-media">
+                      <img src="assets\gif\play_programingFirst.gif" alt="キャットエスケープのプレイ画面">
+                    </div>
+                  
+                    <div class="work-info">
+                      <h3 class="work-title">キャットエスケープ</h3>
+                      <p class="work-description">
+                        【概要】雲から雲に移動しながら、一番右のゴールを目指すジャンプアクションゲーム。<br>
+                        【制作人数・期間】個人・２ヶ月<br>
+                        【開発経緯】専門学校の授業にて、Unityの教科書を一通り学んだ後、初めて作成した作品。<br>
+                        【技術・工夫】Azure PlayFabを用いたオンラインランキングの実装や、UniTask / R3を活用した非同期処理およびイベント管理の最適化を担当。<br>
+                        【こだわった点】ベクトルを使用して、マウスで示した方向へ弾を放つ機能を作成した。<br>
+                        【反省点】横移動が地面にいるときしかできず、空中で横移動の調節ができないため難しい。<br>
+                        　作り切ることを目標にしていたため、その分操作性が悪いゲームとなってしまった。<br>
+                      </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Footer-->
+        <footer class="bg-light py-5">
+            <div class="container-lg px-4 px-lg-5"><div class="small text-center text-muted">Copyright &copy; 2023 - Company Name</div></div>
+        </footer>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- SimpleLightbox plugin JS-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/SimpleLightbox/2.1.0/simpleLightbox.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+    </body>
+</html>
